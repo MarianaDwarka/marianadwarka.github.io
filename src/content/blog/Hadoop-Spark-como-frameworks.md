@@ -2,7 +2,7 @@
 title: "Hadoop y Spark como frameworks"
 description: "Hadoop y Spark, su naturaleza como frameworks, los lenguajes de programación compatibles y su relevancia"
 pubDate: "Sep 04 2023"
-heroImage: "/public/blogImages/spark_and_hadoop.jpg"
+heroImage: "/blogImages/spark_and_hadoop.jpg"
 ---
 
 Hadoop y Spark se consideran "frameworks" porque proporcionan una estructura y un conjunto de herramientas predefinidas para el desarrollo de aplicaciones de procesamiento de datos a gran escala. En el contexto de software, un "framework" es un entorno que ofrece ciertas funcionalidades y servicios que los desarrolladores pueden utilizar para construir sus propias aplicaciones, sin necesidad de escribir todo desde cero. Proporcionan una infraestructura y conjunto de herramientas listas para usar, diseñadas específicamente para simplificar y agilizar el desarrollo de aplicaciones de procesamiento de datos a gran escala.
@@ -17,7 +17,7 @@ Veamos cómo se aplican estas características a Hadoop y Spark:
 
 ### Hadoop
 
-![](/public/blogImages/hadoop.png)
+![](/blogImages/hadoop.png)
 
 1. **Estructura y Herramientas**:
    - **HDFS (Hadoop Distributed File System)**: Proporciona una estructura de almacenamiento distribuido para manejar grandes volúmenes de datos.
@@ -32,7 +32,7 @@ Veamos cómo se aplican estas características a Hadoop y Spark:
 
 ### Spark
 
-![](/public/blogImages/spark.png)
+![](/blogImages/spark.png)
 
 1. **Estructura y Herramientas**:
    - **RDD (Resilient Distributed Dataset)** y otras abstracciones de datos proporcionan una forma de trabajar con datos distribuidos de manera eficiente.

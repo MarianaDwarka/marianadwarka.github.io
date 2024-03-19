@@ -223,13 +223,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"ahorra-datos-convierte-y-descarga.md": {
-	id: "ahorra-datos-convierte-y-descarga.md";
-  slug: "ahorra-datos-convierte-y-descarga";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "astro-tu-proximo-framework-favorito.md": {
 	id: "astro-tu-proximo-framework-favorito.md";
   slug: "astro-tu-proximo-framework-favorito";
@@ -324,6 +317,13 @@ declare module 'astro:content' {
 "python-spark-hadoop.md": {
 	id: "python-spark-hadoop.md";
   slug: "python-spark-hadoop";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"time-series.md": {
+	id: "time-series.md";
+  slug: "time-series";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

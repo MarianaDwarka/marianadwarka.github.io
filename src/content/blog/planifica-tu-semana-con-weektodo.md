@@ -2,7 +2,7 @@
 title: "Planifica tu semana con WeekToDo"
 description: "WeekToDo es un planificador semanal minimalista que te permite de forma sencilla e intuitiva planificar tu semana..."
 pubDate: "Jan 8 2022"
-heroImage: "https://images.ecency.com/DQmSgF8QC4nWQWsKzUV937PV1GkSqxj8vVevYxYCm4BdfyA/weektodo_es.jpg"
+heroImage: "https://pbs.twimg.com/media/FcoiVjWXkAAOLED?format=jpg&name=small"
 ---
 
 [WeekToDo](https://weektodo.me) es un planificador semanal minimalista que te permite de forma sencilla e intuitiva planificar tu semana. La fortaleza principal de la aplicación es la privacidad de los datos, ya que absolutamente todos se encuentran almacenados del lado del usuario. WeekToDo es un proyecto totalmente gratuito, disponible para Linux, Windows, macOS o también en una versión web. Al día de hoy se encuentra disponible en diez idiomas.

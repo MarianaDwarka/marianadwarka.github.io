@@ -76,28 +76,36 @@ The analysis begins with the implementation of moving averages, a basic techniqu
 The exponential moving average (EMA) is applied to give more weight to the most recent data, providing a more sensitive view of recent changes in the number of passengers.
 
 ### 3. Decomposition of Trend and Seasonality
-This stage involves decomposing the time series to identify and explicitly separate the trend and seasonality components, facilitating a clearer understanding of the underlying patterns in the data, using `seasonal_decompose`.
+This stage involves decomposing the time series to explicitly identify and separate the components of trend and seasonality, facilitating a clearer understanding of the underlying patterns in the data. `seasonal_decompose` is used for this purpose.
 
 ### 4. Stationarity Check
-A check for the stationarity of the time series is performed, using the Augmented Dickey-Fuller test, which seeks to determine whether a time series is stationary or not. The null hypothesis of this test is that the time series is not stationary.
+A check for the stationarity of the time series is conducted, for which the Dickey-Fuller test was used. This test aims to determine whether a time series is stationary or not. The null hypothesis of this test is that the time series is not stationary.
+
+In this case, the series was not stationary, so several tests were conducted applying shifts of various periods until a stationary series was obtained.
 
 ### 5. Correlogram
-The correlogram, or autocorrelation graph, is used to observe and analyze the autocorrelation in the data, helping to identify the presence of seasonal or cyclic patterns. ACF and PACF are used.
+The correlogram, or autocorrelation plot, is used to observe and analyze autocorrelation in the data, helping to identify the presence of seasonal or cyclical patterns.
+
+The ACF and PACF are used in the analysis for this phase.
 
 ### 6. Auto ARIMA
-The Auto ARIMA model is implemented, which automates the process of selecting ARIMA parameters, searching for the best set of parameters for the model that minimizes the information criterion and maximizes prediction accuracy.
+The Auto ARIMA model is implemented, which automates the process of selecting ARIMA parameters, seeking the best set of parameters for the model that minimize the information criterion and maximize the prediction accuracy.
+
+For this case, the SARIMAX(2, 1, 2)x(0, 0, [1], 5) model was obtained, which is a seasonal SARIMA model with AR, I, and MA components of orders 2, 1, and 2 respectively, without exogenous variables and with a seasonal pattern of period 5. This model is used to model and predict time series that exhibit both seasonal patterns and trends.
 
 ### 7. SARIMA
-The SARIMA model extends ARIMA to include seasonal components, allowing for modeling of time series with clear seasonal patterns, as is typical in air passenger data. The parameters obtained in the previous point are used for the deployment of this model.
+The SARIMA model extends ARIMA to include seasonal components, allowing for the modeling of time series with clear seasonal patterns, as is typical in airline passenger data.
+
+The parameters obtained in the previous point are used for the deployment of this model.
 
 ### 8. Prophet
-Prophet, developed by Facebook, is used for making future predictions. This model is particularly effective for data with strong trends and multiple seasonalties, offering ease of use and flexibility in incorporating holidays and special events.
+The Prophet algorithm, developed by Facebook, is used for making future predictions. This model is particularly effective for data with strong trends and multiple seasonality.
 
 ### 9. LSTM Network
-Long Short-Term Memory (LSTM) networks are applied to capture long-term dependencies in the data. This type of neural network is suitable for complex time series.
+As the final model, the Long Short-Term Memory (LSTM) network model is used, which is applied to capture long-term dependencies in the data. This type of neural network is suitable for complex time series.
 
 ### 10. RMSE - Root-Mean Square Error
-Finally, the performance of the different predictive models is evaluated and compared using the root-mean-square error (RMSE). This indicator measures the difference between observed values and values predicted by the model, allowing for the identification of the most accurate model. In this case, it was the model obtained with Prophet.
+Finally, the performance of the different predictive models is evaluated and compared using the Root-Mean Square Error (RMSE). This metric measures the difference between observed values and the values predicted by the model, allowing for the identification of the most accurate model. In this case, the model obtained with Prophet was the most accurate.
 
 ![](/blogImages/passengers.png)
 
@@ -257,21 +265,29 @@ Esta etapa implica descomponer la serie temporal para identificar y separar expl
 ### 4. Verificación de Estacionariedad
 Se realiza una verificación de la estacionariedad de la serie temporal, para ellos se hizo uso de la prueba de Dickey-Fuller, la cual busca determinar si una serie de tiempo es estacionaria o no. La hipótesis nula de esta prueba es que la serie de tiempo no es estacionaria.
 
+En este caso la serie no fue estacionaria, por lo que se hicieron varias pruebas aplicando corrimientos de varios periodos hasta que se obtuvo una serie estacionaria.
+
 ### 5. Correlograma
-El correlograma, o gráfico de autocorrelación, se utiliza para observar y analizar la autocorrelación en los datos, ayudando a identificar la presencia de patrones estacionales o cíclicos. Se utiliza en ACF y el PACF.
+El correlograma, o gráfico de autocorrelación, se utiliza para observar y analizar la autocorrelación en los datos, ayudando a identificar la presencia de patrones estacionales o cíclicos. 
+
+Para el desarrollo de esta fase se utiliza en ACF y el PACF dentro del análisis.
 
 ### 6. Auto ARIMA
 Se implementa el modelo Auto ARIMA, que automatiza el proceso de selección de los parámetros ARIMA, buscando el mejor conjunto de parámetros para el modelo que minimice el criterio de información y maximice la precisión de la predicción.
 
+Para este caso se obtiene el modelo SARIMAX(2, 1, 2)x(0, 0, [1], 5), el cual es un modelo SARIMA estacional con componentes AR, I y MA de orden 2, 1 y 2 respectivamente, sin variables exógenas y con un patrón estacional de período 5. Este modelo se utiliza para modelar y predecir series de tiempo que exhiben tanto patrones estacionales como tendencias.
+
 
 ### 7. SARIMA
-El modelo SARIMA extiende el ARIMA para incluir componentes estacionales, permitiendo modelar series temporales con patrones estacionales claros, como es típico en los datos de pasajeros aéreos. Se utilizan los parámetros obtenidos en el punto anterior para el despliegue de este modelo.
+El modelo SARIMA extiende el ARIMA para incluir componentes estacionales, permitiendo modelar series temporales con patrones estacionales claros, como es típico en los datos de pasajeros aéreos. 
+
+Se utilizan los parámetros obtenidos en el punto anterior para el despliegue de este modelo.
 
 ### 8. Prophet
-Se utiliza Prophet, desarrollado por Facebook, para realizar predicciones futuras. Este modelo es particularmente efectivo para datos con tendencias fuertes y estacionalidades múltiples, y ofrece facilidad de uso y flexibilidad en la incorporación de festivos y eventos especiales.
+Se utiliza el algoritmo Prophet, desarrollado por Facebook, para realizar predicciones futuras. Este modelo es particularmente efectivo para datos con tendencias fuertes y estacionalidades múltiples. 
 
 ### 9. Red LSTM
-Las redes LSTM (Long Short-Term Memory) se aplican para capturar dependencias a largo plazo en los datos. Este tipo de red neuronal es adecuada para series temporales complejas.
+Como último modelo, se utilizaó el modelo de redes LSTM (Long Short-Term Memory), las cuales se aplican para capturar dependencias a largo plazo en los datos. Este tipo de red neuronal es adecuada para series temporales complejas.
 
 ### 10. RMSE - Root-Mean Square Error
 Finalmente, se evalúa y compara el rendimiento de los diferentes modelos predictivos utilizando el error cuadrático medio raíz (RMSE). Este indicador mide la diferencia entre los valores observados y los valores predichos por el modelo, permitiendo identificar el modelo más preciso. En este caso fue el modelo obtenido con Prophet.

@@ -1,7 +1,7 @@
 ---
 title: "Genera el nombre de tu marca o producto utilizando inteligencia artificial."
 description: "Cuando estamos creando un nuevo negocio, producto o marca, uno de los aspectos que en ocasiones se torna tedioso es..."
-pubDate: "Dec 16 2021"
+pubDate: "Oct 09 2023"
 heroImage: "https://cdn.hashnode.com/res/hashnode/image/upload/v1647542269452/nzitgPUg7.jpg"
 ---
 

@@ -37,6 +37,10 @@ Therefore, Python enables writing high-level code for complex data processing op
 
 ---
 
+Español
+
+---
+
 En el fascinante mundo del Big Data, tres actores clave destacan por su papel fundamental en el manejo y procesamiento de inmensas cantidades de información: Python, Apache Spark y Hadoop. Pero, ¿cómo interactúan estos tres gigantes para manejar las demandas del procesamiento de datos a gran escala? En esta publicación, exploraremos el papel único y la interconexión entre estas poderosas herramientas, ilustrando cómo juntas forman una sinfonía tecnológica que impulsa algunas de las soluciones de datos más avanzadas de nuestro tiempo.
 
 Cuando ejecutas un script de Python para Apache Spark, estás interactuando con diversas tecnologías que trabajan juntas.

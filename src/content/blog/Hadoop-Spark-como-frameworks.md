@@ -85,6 +85,10 @@ Even though each framework has its own "native" language (Java for Hadoop and Sc
 
 ---
 
+Español
+
+---
+
 Cuando hablamos de procesar y analizar grandes volúmenes de datos, no estamos discutiendo únicamente sobre herramientas o tecnologías aisladas; estamos explorando ecosistemas completos que proporcionan la infraestructura y las herramientas necesarias para enfrentar estos desafíos. Aquí es donde los frameworks como Hadoop y Spark brillan, ofreciendo no solo capacidades de procesamiento, sino también un entorno integral para el desarrollo de aplicaciones de grandes datos. En este post, profundizaremos en por qué Hadoop y Spark son mucho más que simples herramientas: son marcos robustos que facilitan el manejo de grandes volúmenes de datos.
 
 En el contexto del software, un "Framework" es un entorno que ofrece ciertas funcionalidades y servicios que los desarrolladores pueden utilizar para construir sus propias aplicaciones, sin necesidad de escribir todo desde cero. Proporcionan una infraestructura y un conjunto de herramientas listas para usar, específicamente diseñadas para simplificar y agilizar el desarrollo de aplicaciones de procesamiento de datos a gran escala.

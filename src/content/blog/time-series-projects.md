@@ -1,6 +1,6 @@
 ---
 title: "Time Series Projects"
-description: "Application of SARIMA, Prophet, and LSTM models in time series for the annual passenger count (Project 1) and the quantity of products and subtotals in a retail store (Project 2)."
+description: "Application of SARIMA, Prophet, and LSTM models in time series for a temporal sample of the monthly number of passengers (air passengers) (Project 1) and the quantity of products and subtotals in a retail store (Project 2)."
 pubDate: "Sep 25 2023"
 heroImage: "/blogImages/arima_projects.png"
 ---

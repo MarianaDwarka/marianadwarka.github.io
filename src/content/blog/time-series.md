@@ -52,22 +52,34 @@ The ARIMA model is powerful and versatile, capable of modeling a wide range of t
 
 ### 2. GARCH Models (Generalized Autoregressive Conditional Heteroskedasticity Models)
 
-GARCH
-
- models are used to model the volatility of a time series, i.e., how the variability of the series changes over time. They are especially useful when the variance of the time series is not constant (heteroskedasticity). GARCH models can capture patterns such as volatility clustering, where high levels of volatility tend to follow high levels of volatility and vice versa.
+GARCH models are used to model the volatility of a time series, i.e., how the variability of the series changes over time. They are especially useful when the variance of the time series is not constant (heteroskedasticity). GARCH models can capture patterns such as volatility clustering, where high levels of volatility tend to follow high levels of volatility and vice versa.
 
 ### 3. Machine Learning and Deep Learning
 
 These techniques involve the use of complex computational models that can learn patterns from data.
 
 - **Machine Learning**: Includes a wide range of techniques, such as decision trees, support vector machines, and ensemble models, that can capture linear and non-linear relationships in the data.
-- **Deep Learning**: Uses neural networks with many layers (deep) to learn complex data representations. Recurrent neural networks (RNNs) and Long Short-Term Memory (LSTMs) networks are especially useful for time series, as they can capture long-term dependencies in the data.
+
+- **Deep Learning**: It uses neural networks with many layers (deep) to learn complex data representations. LSTM networks (Long Short-Term Memory) are a class of recurrent neural networks (RNNs) designed to address the gradient vanishing problem in learning long-term dependencies. They operate based on the structure of LSTM cells, which allow the network to retain information for long periods and decide what information is relevant to remember or discard through three main components called gates: the forget gate, the input gate, and the output gate.
+
+    1. **Forget Gate**: Decides what information from the previous state is kept or discarded, using a sigmoid function to assign values between 0 (completely discard) and 1 (completely retain).
+
+    2. **Input Gate**: Selects what new information will be added to the cell state. It involves two steps: first, a sigmoid function determines which values will be updated; second, a tanh function creates a vector of new candidate values that might be added to the state.
+
+    3. **Cell State Update**: The cell state is updated by combining the old state, filtered by the forget gate, with the new candidate values, filtered by the input gate.
+
+    4. **Output Gate**: Determines which part of the cell state will be used for the network's output. A sigmoid function decides which parts of the state will be activated, and then the cell state is passed through a tanh function and multiplied by the output of the sigmoid to produce the final output of the LSTM cell.
+
+    This gate structure allows LSTMs to manage and maintain long-term memory efficiently, making them particularly useful for applications involving time series, where the ability to remember information from previous inputs is crucial as they can capture long-term dependencies in the data.
 
 ### 4. Factor Models
 
 Factor models explain variations in a time series through a limited number of unobserved (or latent) factors. These factors can represent underlying influences affecting the time series. The model posits that observations are influenced by these factors through specific coefficients, in addition to possibly including error terms to capture other variations not explained by the factors.
 
 Each of these models has its own strengths and applications, and the choice between them depends on the nature of the data and the objectives of the analysis.
+
+---
+Español
 
 ---
 ## ¿Qué es una serie temporal?
@@ -126,7 +138,17 @@ Los modelos GARCH son utilizados para modelar la volatilidad de una serie tempor
 Estas técnicas involucran el uso de modelos computacionales complejos que pueden aprender patrones a partir de los datos.
 
 - **Machine Learning**: Incluye una amplia gama de técnicas, como los árboles de decisión, las máquinas de soporte vectorial y los modelos de ensamble, que pueden capturar relaciones lineales y no lineales en los datos.
-- **Deep Learning**: Utiliza redes neuronales con muchas capas (profundas) para aprender representaciones de datos complejas. Las redes neuronales recurrentes (RNNs) y las redes de memoria a largo plazo (LSTMs) son especialmente útiles para series temporales, ya que pueden capturar dependencias a largo plazo en los datos.
+- **Deep Learning**: Utiliza redes neuronales con muchas capas (profundas) para aprender representaciones de datos complejas. Las redes LSTM (Long Short-Term Memory) son una clase de redes neuronales recurrentes (RNNs) diseñadas para abordar el problema del desvanecimiento del gradiente en el aprendizaje de dependencias a largo plazo. Su funcionamiento se basa en la estructura de celdas LSTM, que permiten que la red retenga información por largos periodos de tiempo y decida qué información es relevante para recordar o descartar a través de tres componentes principales llamados puertas: la puerta de olvido, la puerta de entrada y la puerta de salida.
+
+    1. **Puerta de Olvido**: Decide qué información del estado anterior se mantiene o se descarta, utilizando una función sigmoide para asignar valores entre 0 (descartar completamente) y 1 (conservar completamente).
+
+    2. **Puerta de Entrada**: Selecciona qué información nueva se añadirá al estado de la celda. Involucra dos pasos: primero, una función sigmoide determina qué valores se actualizarán; segundo, una función tanh crea un vector de nuevos valores candidatos que podrían añadirse al estado.
+
+    3. **Actualización del Estado de la Celda**: El estado de la celda se actualiza combinando el estado antiguo, filtrado por la puerta de olvido, con los nuevos valores candidatos, filtrados por la puerta de entrada.
+
+    4. **Puerta de Salida**: Determina qué parte del estado de la celda se usará para la salida de la red. Una función sigmoide decide qué partes del estado se activarán, y luego el estado de la celda se pasa por una función tanh y se multiplica por la salida de la sigmoide para producir la salida final de la celda LSTM.
+
+    Esta estructura de puertas permite a las LSTM gestionar y mantener una memoria a largo plazo de manera eficiente, lo que las hace particularmente útiles para aplicaciones que involucran series temporales, donde la capacidad de recordar información de entradas antiguas es crucial, ya que pueden capturar dependencias a largo plazo en los datos.
 
 ### 4. Modelos de factores
 

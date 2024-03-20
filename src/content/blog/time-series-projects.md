@@ -9,7 +9,7 @@ As part of the application of the theory mentioned in the blog entry:
 
 <a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/time-series/" target="_blank"> Time Series</a>
 
-two projects are developed:
+two projects were developed:
 
 * Project 1: AutoARIMA - SARIMA - Prophet - LSTM
 * Project 2: EDA, K-means, AutoARIMA, Prophet, LSTM

@@ -293,6 +293,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"mvc-layered.md": {
+	id: "mvc-layered.md";
+  slug: "mvc-layered";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "pay-link.md": {
 	id: "pay-link.md";
   slug: "pay-link";
@@ -331,13 +338,6 @@ declare module 'astro:content' {
 "vale-la-pena-crear-una.md": {
 	id: "vale-la-pena-crear-una.md";
   slug: "vale-la-pena-crear-una";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"weektodo-2-release.md": {
-	id: "weektodo-2-release.md";
-  slug: "weektodo-2-release";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

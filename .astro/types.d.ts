@@ -265,13 +265,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"crea-tu-web-personal-en-minutos-y-gratis-con-biolink.md": {
-	id: "crea-tu-web-personal-en-minutos-y-gratis-con-biolink.md";
-  slug: "crea-tu-web-personal-en-minutos-y-gratis-con-biolink";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "el-mejor-sitio-para-descubrir.md": {
 	id: "el-mejor-sitio-para-descubrir.md";
   slug: "el-mejor-sitio-para-descubrir";
@@ -282,6 +275,13 @@ declare module 'astro:content' {
 "errores-de-terceros-en-aplicaciones-multiplataformas.md": {
 	id: "errores-de-terceros-en-aplicaciones-multiplataformas.md";
   slug: "errores-de-terceros-en-aplicaciones-multiplataformas";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"java-api.md": {
+	id: "java-api.md";
+  slug: "java-api";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

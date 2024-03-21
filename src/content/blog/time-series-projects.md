@@ -65,7 +65,7 @@ The main advantage of auto_arima is that it automates the process of selecting t
 
 # Project 1: AutoARIMA - SARIMA - Prophet - LSTM
 
-<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/autoarima-sarima-prophet-lstm" target="_blank"> AutoARIMA - SARIMA - Prophet - LSTM</a>
+<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/autoarima-sarima-prophet-lstm" target="_blank">Visit Notebook (AutoARIMA - SARIMA - Prophet - LSTM)</a>
 
 Project 2 is a comprehensive analysis and application of predictive modeling techniques on the "Air Passengers" dataset, which contains data on the number of air passengers per month. Below, each component of the project is detailed, highlighting the objective and methodologies applied in each phase.
 
@@ -113,7 +113,7 @@ This project demonstrates a rigorous and multifaceted approach to the analysis a
 
 # Project 2: EDA, K-means, AutoARIMA, Prophet, LSTM
 
-<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/eda-k-means-auto-arima-prophet-lstm?scriptVersionId=144608586" target="_blank"> EDA, K-means, AutoARIMA, Prophet, LSTM</a>
+<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/eda-k-means-auto-arima-prophet-lstm?scriptVersionId=144608586" target="_blank">Visit Notebook (EDA, K-means, AutoARIMA, Prophet, LSTM)</a>
 
 The project undertakes a comprehensive analysis and predictive modeling using the "Online Retail Transaction" dataset, which records transactions from an online retail business, including details about products purchased, quantity, price, customer, and country of origin. The breadth and depth of the data present a unique opportunity to extract meaningful insights on buying behaviors and optimize business strategies. Below, each phase of the project is detailed, emphasizing its objective and applied methodologies.
 
@@ -249,7 +249,7 @@ La principal ventaja de auto_arima es que automatiza el proceso de selección de
 
 # Proyecto 1: AutoARIMA - SARIMA - Prophet - LSTM
 
-<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/autoarima-sarima-prophet-lstm" target="_blank"> AutoARIMA - SARIMA - Prophet - LSTM</a>
+<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/autoarima-sarima-prophet-lstm" target="_blank">Visit Notebook (AutoARIMA - SARIMA - Prophet - LSTM)</a>
 
 El proyecto 2 es un análisis comprensivo y una aplicación de técnicas de modelado predictivo sobre el dataset "Air Passengers", el cual contiene datos sobre el número de pasajeros aéreos por mes. A continuación, se detalla cada uno de los componentes del proyecto, resaltando el objetivo y las metodologías aplicadas en cada fase.
 
@@ -300,7 +300,7 @@ Este proyecto demuestra un enfoque riguroso y multifacético para el análisis y
 
 # Proyecto 2: EDA, K-means, AutoARIMA, Prophet, LSTM
 
-<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/eda-k-means-auto-arima-prophet-lstm?scriptVersionId=144608586" target="_blank"> EDA, K-means, AutoARIMA, Prophet, LSTM</a>
+<a class="btn btn-outline ml-5" href="https://www.kaggle.com/code/marianadwarka/eda-k-means-auto-arima-prophet-lstm?scriptVersionId=144608586" target="_blank">Visit Notebook (EDA, K-means, AutoARIMA, Prophet, LSTM)</a>
 
 El proyecto aborda un análisis exhaustivo y modelado predictivo utilizando el "Online Retail Transaction" dataset, que registra transacciones de un comercio minorista en línea, incluyendo detalles sobre productos comprados, cantidad, precio, cliente y país de origen. La amplitud y profundidad de los datos presentan una oportunidad única para extraer insights significativos sobre comportamientos de compra y optimizar estrategias comerciales. A continuación, se detalla cada fase del proyecto, enfatizando su objetivo y metodologías aplicadas.
 

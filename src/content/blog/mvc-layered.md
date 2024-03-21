@@ -43,7 +43,7 @@ The Model-View-Controller (MVC) pattern and the Layered Architecture are both de
   - **Presentation Layer (IGU)**: This is the layer closest to the end user. It handles user interaction, displaying information, and gathering user inputs. Its function is to present data and delegate user actions to the business logic layer.
   - **Business Logic Layer**: This is where the application's specific logic is processed, decisions are made, and business rules are executed. This layer acts as an intermediary between the presentation layer and the data layer, processing user requests, executing corresponding logic, and passing data to and from the data layer.
   - **Persistence or Data Access Layer**: This layer manages data persistence and retrieval, interacting with databases, file systems, or other data sources. It is responsible for storing, retrieving, and updating information as requested by the business logic layer.
-  - In some cases, additional layers such as the Service Layer or Integration Layer are included.
+  - **Service Layer**: In some cases, additional layers such as the Service Layer or Integration Layer are included. This optional layer is positioned between the business logic layer and the presentation layer, or between the business logic and the data layer, depending on the design. Its purpose is to provide a set of common services (such as authentication, authorization, logging, etc.) or to integrate external systems and services. This helps to centralize integration logic and to provide a consistent interface for consumers of these services.
 
     ![](/blogImages/layered.png)
 
@@ -107,7 +107,7 @@ El patrón Modelo-Vista-Controlador (MVC) y el Modelo de Capas son ambos patrone
   - **Capa de Presentación (IGU)**: Es la capa más cercana al usuario final. Se encarga de la interacción con el usuario, mostrando la información y recogiendo las entradas del usuario. Su función es presentar los datos y delegar las acciones del usuario a la capa de lógica de negocio.
   - **Capa de Lógica de negocio**: Aquí es donde se procesa la lógica específica de la aplicación, se toman decisiones y se ejecutan las reglas de negocio. Esta capa actúa como un intermediario entre la capa de presentación y la capa de datos, procesando las solicitudes del usuario, ejecutando la lógica correspondiente y pasando los datos a y desde la capa de datos.
   - **Capa de Persisencia o acceso a datos**: Esta capa gestiona la persistencia y la recuperación de los datos, interactuando con bases de datos, sistemas de archivos u otras fuentes de datos. Se encarga de almacenar, recuperar y actualizar la información según lo solicite la capa de lógica de negocio.
-  - En algunos casos, se incluyen capas adicionales como la Capa de Servicios o la Capa de Integración.
+  - **Capa de Servicios**: En algunos casos, se incluyen capas adicionales como la Capa de Servicios o la Capa de Integración. Esta capa opcional se sitúa entre la capa de lógica de negocio y la capa de presentación o entre la lógica de negocio y la capa de datos, dependiendo del diseño. Su propósito es proporcionar un conjunto de servicios comunes (como autenticación, autorización, logging, etc.) o para integrar sistemas y servicios externos. Esto ayuda a centralizar la lógica de integración y a proporcionar una interfaz coherente para los consumidores de estos servicios.
 
     ![](/blogImages/capas.png)
 

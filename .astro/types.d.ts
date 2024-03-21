@@ -286,9 +286,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"genera-el-nombre-de-tu-marca-o-producto-utilizando-inteligencia-artificial.md": {
-	id: "genera-el-nombre-de-tu-marca-o-producto-utilizando-inteligencia-artificial.md";
-  slug: "genera-el-nombre-de-tu-marca-o-producto-utilizando-inteligencia-artificial";
+"multi-layer architecture.md": {
+	id: "multi-layer architecture.md";
+  slug: "multi-layer-architecture";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

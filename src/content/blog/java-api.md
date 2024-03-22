@@ -12,7 +12,7 @@ The project focuses on the development of an API for a store, with the aim of ma
 
 The proposed solution is structured following the multi-layer model (also known as layered architecture), a design pattern widely used in enterprise applications, especially with the Spring Boot framework in the Java ecosystem.
 
-<a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/multi-layer-architecture/" target="_blank">Check out -> MVC Pattern and Layered Model</a>
+<a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/multi-layer-architecture/" target="_blank">Check out -> A standard multi-layer structure commonly used in Spring Boot</a>
 
 Below is a detailed explanation of how this model applies to the project:
 
@@ -83,7 +83,7 @@ El proyecto se enfoca en el desarrollo de una API para una tienda, con el objeti
 
 La solución propuesta se estructura siguiendo el modelo multicapas (también conocido como arquitectura en capas), un patrón de diseño ampliamente utilizado en aplicaciones empresariales, especialmente con el framework Spring Boot en el ecosistema de Java. 
 
-<a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/multi-layer-architecture/" target="_blank">Revisar -> MVC Pattern and Layered Model</a>
+<a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/multi-layer-architecture/" target="_blank">Revisar -> A standard multi-layer structure commonly used in Spring Boot</a>
 
 A continuación, se detalla cómo se aplica este modelo al proyecto:
 

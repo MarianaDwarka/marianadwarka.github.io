@@ -195,13 +195,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"5-pruebas-que-debes-hacer.md": {
-	id: "5-pruebas-que-debes-hacer.md";
-  slug: "5-pruebas-que-debes-hacer";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "9-cursos-de-platzi-para.md": {
 	id: "9-cursos-de-platzi-para.md";
   slug: "9-cursos-de-platzi-para";
@@ -219,6 +212,13 @@ declare module 'astro:content' {
 "Hadoop-Spark-como-frameworks.md": {
 	id: "Hadoop-Spark-como-frameworks.md";
   slug: "hadoop-spark-como-frameworks";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"api-rest-oop.md": {
+	id: "api-rest-oop.md";
+  slug: "api-rest-oop";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

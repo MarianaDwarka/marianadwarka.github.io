@@ -1,6 +1,6 @@
 ---
 title: "A standard multi-layer structure commonly used in Spring Boot"
-description: "Algorithmic trading system that automates the entire process, from extracting real-time market data (EUR/USD) via the OANDA API to executing trades based on a simple moving average strategy. Data is processed in an Azure VM and stored in a MySQL database, enabling continuous strategy optimization."
+description: "The article features a common multi-layer architecture in Spring Boot applications, illustrating how these layers cooperate to process HTTP requests, execute business logic, and manage data persistence. "
 pubDate: "Oct 09 2023"
 heroImage: "/blogImages/spring.png"
 ---

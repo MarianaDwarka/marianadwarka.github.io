@@ -1,6 +1,6 @@
 ---
 title: "Algorithmic trading"
-description: "An overview of SQLAlchemy, a Python library for interacting with relational databases using an Object-Relational Mapping (ORM) approach. It also compares SQLAlchemy with MySQL Connector"
+description: "Algorithmic trading system that automates the entire process, from extracting real-time market data (EUR/USD) via the OANDA API to executing trades based on a simple moving average strategy. Data is processed in an Azure VM and stored in a MySQL database, enabling continuous strategy optimization."
 pubDate: "May 27 2024"
 heroImage: "/blogImages/algorithmictrading.png"
 ---

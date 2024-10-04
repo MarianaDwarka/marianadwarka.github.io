@@ -92,7 +92,7 @@ El trading algorítmico, también conocido como trading automatizado, es un mét
 
 
 ### **Objetivo**:
-El objetivo del proyecto es desarrollar un sistema de trading algorítmico que emule el ciclo de vida de los datos de mercado, desde su extracción hasta su análisis y ejecución de operaciones en tiempo real, el particular se trabajará con el par de divisasEUR/USD. Este sistema se conecta a un broker (OANDA) mediante una API para obtener datos de mercado, procesarlos en una máquina virtual alojada en Azure y ejecutar trades automáticos basados en una estrategia de cruces de medias móviles simples (SMA's). Los datos resultantes son almacenados en una base de datos MySQL en Azure, permitiendo ajustes posteriores de los parámetros estratégicos utilizando Python.
+El objetivo del proyecto es desarrollar un sistema de trading algorítmico que emule el ciclo de vida de los datos de mercado, desde su extracción hasta su análisis y ejecución de operaciones en tiempo real, en particular se trabajará con el par de divisas EUR/USD. Este sistema se conecta a un broker (OANDA) mediante una API para obtener datos de mercado, procesarlos en una máquina virtual alojada en Azure y ejecutar trades automáticos basados en una estrategia de cruces de medias móviles simples (SMA's). Los datos resultantes son almacenados en una base de datos MySQL en Azure, permitiendo ajustes posteriores de los parámetros estratégicos utilizando Python.
 
 Antes que nada, comenzaremos explicando el ciclo de vida de los datos, es decir, las etapas por las que pasan los datos desde su creación hasta su visualización.
 

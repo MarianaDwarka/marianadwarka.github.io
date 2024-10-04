@@ -5,7 +5,7 @@ pubDate: "May 27 2024"
 heroImage: "/blogImages/algorithmictrading.png"
 ---
 
-**Algorithmic trading**, also known as automated trading, is a method of executing buy and sell orders in financial markets using algorithms and computer programs. These algorithms are designed to make trading decisions based on a series of predefined parameters and rules, without direct human intervention.
+Algorithmic trading, also known as automated trading, is a method of executing buy and sell orders in financial markets using algorithms and computer programs. These algorithms are designed to make trading decisions based on a series of predefined parameters and rules, without direct human intervention.
 
 <a class="btn btn-outline ml-5" href="https://github.com/MarianaDwarka/Trading_Algoritmico" target="_blank">CHECK OUT THE PROJECT REPOSITORY</a> 
 

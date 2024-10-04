@@ -216,6 +216,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"algorithmic-trading.md": {
+	id: "algorithmic-trading.md";
+  slug: "algorithmic-trading";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "api-rest-oop.md": {
 	id: "api-rest-oop.md";
   slug: "api-rest-oop";

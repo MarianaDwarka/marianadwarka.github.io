@@ -321,6 +321,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"sqlalchemy.md": {
+	id: "sqlalchemy.md";
+  slug: "sqlalchemy";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "time-series-projects.md": {
 	id: "time-series-projects.md";
   slug: "time-series-projects";
@@ -331,13 +338,6 @@ declare module 'astro:content' {
 "time-series.md": {
 	id: "time-series.md";
   slug: "time-series";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"vale-la-pena-crear-una.md": {
-	id: "vale-la-pena-crear-una.md";
-  slug: "vale-la-pena-crear-una";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

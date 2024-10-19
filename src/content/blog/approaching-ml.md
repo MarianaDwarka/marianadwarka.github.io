@@ -1,6 +1,6 @@
 ---
 title: "How to Approach Machine Learning Projects"
-description: "Hace unos días salí buscando opiniones sobre que tan beneficioso sería tener una comunidad de desarrolladores cubanos."
+description: "The machine learning process starts with understanding the problem and classifying the model type. Next, the data is cleaned, explored, and split into training and test sets, followed by training a baseline model. Finally, advanced strategies are experimented with, hyperparameters are tuned, and results are interpreted to improve predictions."
 pubDate: "Oct 30 2023"
 heroImage: "/blogImages/approach.png"
 ---

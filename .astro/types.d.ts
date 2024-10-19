@@ -230,9 +230,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"ciberdelitos-en-internet-cuidado-donde-pones-tus-llaves.md": {
-	id: "ciberdelitos-en-internet-cuidado-donde-pones-tus-llaves.md";
-  slug: "ciberdelitos-en-internet-cuidado-donde-pones-tus-llaves";
+"cleaning-data.md": {
+	id: "cleaning-data.md";
+  slug: "cleaning-data";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

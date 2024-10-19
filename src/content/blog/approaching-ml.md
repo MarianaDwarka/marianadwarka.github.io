@@ -48,7 +48,7 @@ Unsupervised learning: You work with data that has no labels, typically for clus
 
 Here are more information ([source](https://vas3k.com/blog/machine_learning/)): 
 
-<img src="https://i.imgur.com/VbVFAsg.png" width="740">
+<img src="https://i.imgur.com/VbVFAsg.png" width="700">
 
 ### Loss Functions and Evaluation Metrics
 

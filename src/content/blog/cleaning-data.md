@@ -1,7 +1,7 @@
 ---
-title: "Ciberataques en internet. Cuidado donde pones tus llaves."
+title: "Cleaning Data"
 description: "Hoy en día tenemos que estar muy al tanto en internet donde ponemos nuestras contraseñas o llaves..."
-pubDate: "Feb 15 2022"
+pubDate: "Nov 06 2023"
 heroImage: "https://files.peakd.com/file/peakd-hive/manuelernestogr/23tGa8mx1YMfQLUkVfYUs5T74yA8a2FbVj7AKcpptSgHzuLmvJgHsbT7LQqj7hzPSQEQr.jpg"
 ---
 

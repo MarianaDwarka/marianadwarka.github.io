@@ -150,7 +150,7 @@ Let's train a simple `LinearRegression` model, with no customization.
 5. We repeat steps 1 to 4 till the predictions from the model are good enough.
 
 
-<img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png" width="480">
+<img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png">
 
 Once we have fit the model, the model can now be used to make predictions. Note that the parameters of the model will not be updated during prediction.
 
@@ -186,9 +186,9 @@ In general, the following strategies can be used to improve the performance of a
 
 ### Hyperparameter Optimization & Grid Search
 
-You can tune hyperparameters manually, our use an automated tuning strategy like random search or Grid search. Follow this tutorial for hyperparameter tuning using Grid search: https://machinelearningmastery.com/hyperparameter-optimization-with-random-search-and-grid-search/
+You can tune hyperparameters manually, our use an automated tuning strategy like random search or Grid search. 
 
-<img src="https://i.imgur.com/EJCrSZw.png" width="480">
+<img src="https://i.imgur.com/EJCrSZw.png">
 
 ## Step 8 - Interpret models, study individual predictions & present your findings
 

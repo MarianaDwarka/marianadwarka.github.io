@@ -202,13 +202,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"CuCoders.md": {
-	id: "CuCoders.md";
-  slug: "cucoders";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "Hadoop-Spark-como-frameworks.md": {
 	id: "Hadoop-Spark-como-frameworks.md";
   slug: "hadoop-spark-como-frameworks";
@@ -226,6 +219,13 @@ declare module 'astro:content' {
 "api-rest-oop.md": {
 	id: "api-rest-oop.md";
   slug: "api-rest-oop";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"approaching-ml.md": {
+	id: "approaching-ml.md";
+  slug: "approaching-ml";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

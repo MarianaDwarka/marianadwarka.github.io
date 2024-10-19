@@ -1,8 +1,8 @@
 ---
-title: "CuCoders | Propuesta inicial para una Comunidad de Desarrolladores Cubanos"
+title: "How to Approach Machine Learning Projects"
 description: "Hace unos días salí buscando opiniones sobre que tan beneficioso sería tener una comunidad de desarrolladores cubanos."
-pubDate: "Jan 6 2023"
-heroImage: "https://user-images.githubusercontent.com/53962116/211059247-a85be9ed-6072-45a6-a4c4-a75d2ed62064.png"
+pubDate: "Oct 30 2023"
+heroImage: "/blogImages/approach.png"
 ---
 
 Hace unos días salí buscando opiniones sobre que tan beneficioso sería tener una comunidad de desarrolladores cubanos y qué características debería tener. Luego de mezclar todas las ideas que tenía y las que dieron aquí, te traigo una propuesta de como podría ser la comunidad y la ejecución.

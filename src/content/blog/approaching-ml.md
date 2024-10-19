@@ -5,7 +5,7 @@ pubDate: "Oct 30 2023"
 heroImage: "/blogImages/approach.png"
 ---
 
-In this tutorial, we'll explore a step-by-step process for approaching ML problems:
+We'll explore a step-by-step process for approaching ML problems:
 
 1. Understand the business requirements and the nature of the available data.
 2. Classify the problem as supervised/unsupervised and regression/classification.
@@ -41,7 +41,12 @@ Gather as much information about the problem as possible, so that you're clear u
 
 ## Step 2 - Classify the problem as supervised/unsupervised & regression/classification
 
-Here are the topics in machine learning that we're studying in this course ([source](https://vas3k.com/blog/machine_learning/)): 
+Once you understand the problem, classify it into the right category:
+
+Supervised learning: You have input-output pairs (labeled data). This could be a classification (e.g., binary, multiclass) or regression (predicting continuous values).
+Unsupervised learning: You work with data that has no labels, typically for clustering, anomaly detection, or association tasks.
+
+Here are more information ([source](https://vas3k.com/blog/machine_learning/)): 
 
 <img src="https://i.imgur.com/VbVFAsg.png" width="740">
 
@@ -56,6 +61,14 @@ Once you have identified the type of problem you're solving, you need to pick an
 They are often the same (e.g. RMSE for regression problems), but they can be different (e.g. Cross entropy and Accuracy for classification problems).
 
 ## Step 3 - Download, clean & explore the data and create new features
+
+Data is rarely clean, so this step is essential for success. It involves:
+
+* Handling missing or inconsistent data (e.g., imputation).
+* Removing outliers or irrelevant data.
+* Performing exploratory data analysis (EDA): Visualizing distributions, relationships between variables, and understanding the dataset.
+* Creating new features (feature engineering) that might improve the model’s predictive power.
+
 
 ### Downloading Data
 
@@ -73,7 +86,17 @@ Identify the right tool/library to get the data.
 
 ### Cleaning Data
 
-The first step is to check the column data types and identify if there are any null values.
+Cleaning the data is an essential part of preparing your dataset for analysis or machine learning models. Here are the key steps involved in cleaning the data:
+
+* Handling Missing Data
+* Dealing with Outliers
+* Correcting Data Types
+* Handling Duplicates
+* Standardizing or Normalizing Data
+* Encoding Categorical Variables
+* Dealing with Inconsistent Data
+* Feature Scaling
+
 
 ### Exploratory Data Analysis and Visualization
 
@@ -101,21 +124,18 @@ For example, here are some features that can be extracted from the "Date" column
 
 ## Step 4 - Create a training/test/validation split and prepare the data for training
 
-### Train/Test/Validation Split
+You need to split the data into different sets:
 
-The data already contains a test set, which contains over one month of data after the end of the training set. We can apply a similar strategy to create a validation set. We'll the last 25% of rows for the validation set, after ordering by date
-
-### Input and Target columns
-
-Let's also identify input and target columns. Note that we can't use the no. of customers as an input, because this information isn't available beforehand. Also, we needn't use all the available columns, we can start out with just a small subset.
+* **Training set:** Used to train the model.
+* **Validation set:** Used for tuning model hyperparameters and model selection.
+* **Test set:** Used for the final evaluation of the model’s performance.
+It's also important to preprocess the data (e.g., normalization, standardization, encoding categorical variables) to make it ready for machine learning algorithms.
 
 ## Step 5 - Create quick & easy baseline models to benchmark future models
 
+Before diving into complex models, start with a simple baseline model to set a performance benchmark. This could be a basic algorithm like a decision tree, logistic regression, or even a rule-based model. It gives you a reference point to see if more sophisticated models actually improve performance.
+
 A quick baseline model helps establish the minimum score any ML model you train should achieve.
-
-### Fixed/Random Guess
-
-Let's define a model that always returns the mean value of Sales as the prediction.
 
 ### Baseline ML model
 
@@ -132,11 +152,12 @@ Let's train a simple `LinearRegression` model, with no customization.
 
 <img src="https://www.deepnetts.com/blog/wp-content/uploads/2019/02/SupervisedLearning.png" width="480">
 
-The we have fit the model, the model can now be used to make predictions. Note that the parameters of the model will not be updated during prediction.
+Once we have fit the model, the model can now be used to make predictions. Note that the parameters of the model will not be updated during prediction.
 
 ## Step 6 - Pick a strategy, train a model & tune hyperparameters
 
 
+Choose the type of model(s) that suit your problem. It could be decision trees, random forests, support vector machines, neural networks, etc. Train your model and adjust hyperparameters (e.g., learning rate, regularization strength) to improve performance using the validation set.
 
 ### Systematically Exploring Modeling Strategies
 
@@ -170,6 +191,12 @@ You can tune hyperparameters manually, our use an automated tuning strategy like
 <img src="https://i.imgur.com/EJCrSZw.png" width="480">
 
 ## Step 8 - Interpret models, study individual predictions & present your findings
+
+Interpreting the model is critical, especially in business settings where decision-makers need to trust the model. You should:
+
+Look at feature importance to understand which features are driving the predictions.
+Analyze individual predictions and ensure the model is making reasonable decisions.
+Present your results in a way that is understandable for non-technical stakeholders (e.g., visualizations, actionable insights).
 
 ### Feature Importance
 

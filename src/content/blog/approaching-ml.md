@@ -46,7 +46,7 @@ Once you understand the problem, classify it into the right category:
 Supervised learning: You have input-output pairs (labeled data). This could be a classification (e.g., binary, multiclass) or regression (predicting continuous values).
 Unsupervised learning: You work with data that has no labels, typically for clustering, anomaly detection, or association tasks.
 
-Here are more information ([source](https://vas3k.com/blog/machine_learning/)): 
+There is more information here: ([source](https://vas3k.com/blog/machine_learning/)): 
 
 <img src="https://i.imgur.com/VbVFAsg.png">
 
@@ -187,7 +187,7 @@ In general, the following strategies can be used to improve the performance of a
 
 ### Hyperparameter Optimization & Grid Search
 
-You can tune hyperparameters manually, our use an automated tuning strategy like random search or Grid search. 
+You can tune hyperparameters manually, or use an automated tuning strategy like random search or Grid search. 
 
 <img src="https://i.imgur.com/EJCrSZw.png">
 

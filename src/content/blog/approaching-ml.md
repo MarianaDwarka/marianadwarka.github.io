@@ -137,9 +137,10 @@ Before diving into complex models, start with a simple baseline model to set a p
 
 A quick baseline model helps establish the minimum score any ML model you train should achieve.
 
+For example, in case it's a regression problem, we can train a simple `LinearRegression` model, with no customization as a baseline model.
+
 ### Baseline ML model
 
-Let's train a simple `LinearRegression` model, with no customization.
 
 `model.fit` uses the following workflow for training the model ([source](https://www.deepnetts.com/blog/from-basic-machine-learning-to-deep-learning-in-5-minutes.html)):
 
@@ -219,7 +220,7 @@ At this point, the model can be handed over to a software developer / ML enginee
 Check out this tutorial on how to deploy a model to the Heroku platform using the Flask framework: https://towardsdatascience.com/create-an-api-to-deploy-machine-learning-models-using-flask-and-heroku-67a011800c50
 
 
-## Summary and References
+## Summary
 
 
 Here's the summary of the step-by-step process you should follow to approach any machine learning problem:

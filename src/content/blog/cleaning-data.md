@@ -2,7 +2,7 @@
 title: "Cleaning Data"
 description: "Hoy en día tenemos que estar muy al tanto en internet donde ponemos nuestras contraseñas o llaves..."
 pubDate: "Nov 06 2023"
-heroImage: "https://files.peakd.com/file/peakd-hive/manuelernestogr/23tGa8mx1YMfQLUkVfYUs5T74yA8a2FbVj7AKcpptSgHzuLmvJgHsbT7LQqj7hzPSQEQr.jpg"
+heroImage: "/blogImages/cleaning.png"
 ---
 
 Hoy en día tenemos que estar muy al tanto en internet donde ponemos nuestras contraseñas o llaves. Existen muchísimas prácticas que utilizan estas personas mal intencionadas, entre las más comunes se encuentra la ingeniería social y la suplantación web. 

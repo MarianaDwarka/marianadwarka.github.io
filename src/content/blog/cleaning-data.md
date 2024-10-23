@@ -66,7 +66,7 @@ By thoroughly cleaning your data, you ensure that it is of high quality and free
 Data preparation is a crucial step in getting your dataset ready for analysis or machine learning models. It involves transforming, engineering, and refining the data to optimize model performance and ensure meaningful insights. Here are the key steps involved in data preparation:
 
 ### 1. **Data Cleaning**
-   Before diving into further preparation, ensure that your data is clean. This involves:
+   Remember that before diving into further preparation, you need to ensure that your data is clean. This involves:
    - **Handling missing data**: Imputation or removal.
    - **Removing duplicates**: Cleaning up duplicate records.
    - **Correcting inconsistencies**: Standardizing text and correcting misformatted data.

@@ -69,6 +69,7 @@ Data is rarely clean, so this step is essential for success. It involves:
 * Performing exploratory data analysis (EDA): Visualizing distributions, relationships between variables, and understanding the dataset.
 * Creating new features (feature engineering) that might improve the model’s predictive power.
 
+<a class="btn btn-outline ml-5" href="https://marianadwarka.github.io/blog/cleaning-data/" target="_blank">CHECK OUT -> Cleaning and Preparing Data for ML Projetcs</a> 
 
 ### Downloading Data
 

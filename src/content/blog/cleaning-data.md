@@ -2,7 +2,7 @@
 title: "Cleaning and Preparing Data for ML Projetcs"
 description: "A well-executed combination of data cleaning and preparation not only improves the quality of the input data but also enhances model performance, leading to more accurate and robust machine learning systems."
 pubDate: "Nov 06 2023"
-heroImage: "/blogImages/cleaning.png"
+heroImage: "/blogImages/cleaning.jpg"
 ---
 
 
